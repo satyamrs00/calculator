@@ -28,7 +28,6 @@ const Calculator = () => {
   }
 
   const inputOperator = (op) => {
-    console.log("exp.slice(-2,-1): ", exp.slice(-2,-1))
     if (exp.includes('=')){
       setExp(display+op)
       setDisplay(op)
@@ -50,7 +49,6 @@ const Calculator = () => {
       return
     }
     if (op !== '-' && exp.slice(-1) === '-' && isNaN(exp.slice(-2,-1))){
-      console.log('REMOVE 2')
       setExp(exp.slice(0,-2)+op)
       setDisplay(op)
       return

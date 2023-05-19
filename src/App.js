@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import { evaluate } from 'mathjs';
 import Calculator from './Calculator/Calculator';
 
 function App(props) {
