@@ -1,0 +1,25 @@
+@font-face {
+    font-family: digital;
+    src: url(../assets/fonts/DigitalNumbers-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url(../assets/fonts/ShareTechMono-Regular.ttf);
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butt:hover{
+    outline: 1px solid #808080;
+    z-index: 1;
+}
+#calculator {
+    font-family: 'Share Tech Mono', monospace;
+}
+.nos {
+    font-family: digital;
+}
